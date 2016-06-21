@@ -3,8 +3,8 @@ require "formula"
 class Gnuradio < Formula
   homepage "http://gnuradio.org"
   head "https://github.com/gnuradio/gnuradio.git"
-  url "http://gnuradio.org/releases/gnuradio/gnuradio-3.7.8.tar.gz"
-  sha256 "fe19cb54b5d77fb76dde61d5cf184c6dee7066779b45c51676bae6e6d0cd4172"
+  url "http://gnuradio.org/releases/gnuradio/gnuradio-3.7.9.2.tar.gz"
+  sha256 "71662ff8089b8533cd8162ecef57661ec97d0026735876b1b55d0efcf654b561"
 
   option "without-qt", "Build with QT widgets in addition to wxWidgets"
   option "without-docs", "Build gnuradio documentation"
